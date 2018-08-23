@@ -22,11 +22,6 @@
 					"doorLockState" => "SECURED"
 				);
 				
-				file_put_contents('safe.log',print_r($safe_state, true));
-				file_put_contents('json.log',print_r($JSONdata['vehicleStatus'], true));
-				file_put_contents('intersect.log',print_r(array_intersect_key($JSONdata['vehicleStatus'],$safe_state),true));
-				file_put_contents('diff.log',print_r(array_diff(array_intersect_key($JSONdata['vehicleStatus'],$safe_state),$safe_state),true));
-				
 				foreach ($safe_state as $key) { // there's a door open/unlocked or light on, find it
 					$safe_state_text = array( // equivalent vehicle elements in plain English for speech output
 						"doorDriverFront" => "driver front door",
@@ -61,8 +56,6 @@
 				$errors = str_replace('doors is', 'doors are', $errors); // fix grammar for "doors"
 				$errors = ucfirst($errors); // uppercase the first letter
 				$SpeakPhrase = substr($errors, 0, -1); // remove characters after the period at the end
-					
-				file_put_contents('diff.log',"Errors: ".$errors."\n",FILE_APPEND);
 
 				$SpeakPhrase = $errors;
 				break;
