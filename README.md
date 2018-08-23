@@ -2,7 +2,7 @@
 
 A PHP version with interfaces for both Amazon's Alexa and Google Assistant.
 
-Demo video: https://www.youtube.com/watch?v=0Um5Gm_0Qrs&hd=1
+Demo video: [Voice Control of the BMW i3 via Amazon Alexa & Google Assistant](https://www.youtube.com/watch?v=0Um5Gm_0Qrs&hd=1)
 
 The code is split into 4 files:
 
