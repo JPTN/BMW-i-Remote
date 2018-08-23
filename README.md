@@ -35,6 +35,12 @@ $options = array(
 );
 ```
 
+### text.php
+
+Change the following, as necessary:
+* `$metric = true;` // use metric or imperial values
+* `$rex = false;` // battery only (false) or range-extender (true)
+
 # BMW i Remote API
 A reverse engineered interface for the BMW i3 Electric Car, created initially by Terence Eden, with some code modified by Quentin Stafford-Fraser.
 
