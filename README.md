@@ -13,7 +13,7 @@ The code is split into 4 files:
 
 ### bmw-api.php
 
-After you've extracted the required API key from the mobile app, update the following:
+After you've extracted the required API key from the mobile app (see [Authorisation](#authorisation) below), update the following:
 
 * `EMAIL%40DOMAIN.COM`: make sure you keep the escape code (%40)
 * `SECRET`: your ConnectedDrive account password
