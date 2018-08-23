@@ -1,0 +1,127 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "eye three",
+            "intents": [
+                {
+                    "name": "update",
+                    "slots": [],
+                    "samples": [
+                        "update the data",
+                        "get new data",
+                        "refresh the data",
+                        "reload the data"
+                    ]
+                },
+                {
+                    "name": "status",
+                    "slots": [],
+                    "samples": [
+                        "what is the status of the car",
+                        "what is the status of the eye three",
+                        "what is the status",
+                        "status of the eye three",
+                        "status of the car",
+                        "status of my car"
+                    ]
+                },
+                {
+                    "name": "charge",
+                    "slots": [],
+                    "samples": [
+                        "what is the battery level",
+                        "what is the battery at",
+                        "what is the state of charge",
+                        "battery level",
+                        "state of charge"
+                    ]
+                },
+                {
+                    "name": "windows",
+                    "slots": [],
+                    "samples": [
+                        "are the windows closed",
+                        "are the windows open",
+                        "are the windows down",
+                        "are the windows up",
+                        "is the driver's window closed",
+                        "is the driver's window open",
+                        "is the driver's window rolled up",
+                        "is the driver's window rolled down",
+                        "is the passenger's window closed",
+                        "is the passenger's window open",
+                        "is the passenger's window rolled up",
+                        "is the passenger's window rolled down"
+                    ]
+                },
+                {
+                    "name": "mileage",
+                    "slots": [],
+                    "samples": [
+                        "what's the mileage",
+                        "how many miles are on the car",
+                        "how many kilometers are on the car",
+                        "what's the odometer reading",
+                        "what's the odometer at"
+                    ]
+                },
+                {
+                    "name": "lock",
+                    "slots": [],
+                    "samples": [
+                        "lock the car",
+                        "lock the eye three",
+                        "lock the vehicle",
+                        "lock the doors",
+                        "secure the vehicle"
+                    ]
+                },
+                {
+                    "name": "range",
+                    "slots": [],
+                    "samples": [
+                        "how much range is left",
+                        "how much range is remaining",
+                        "what's the range remaining",
+                        "how far can i go",
+                        "how many kilometers are left"
+                    ]
+                },
+                {
+                    "name": "climate",
+                    "slots": [],
+                    "samples": [
+                        "turn on the A-C",
+                        "start the A-C",
+                        "start the air conditioner",
+                        "start the air conditioning",
+                        "turn on climate control",
+                        "start climate control",
+                        "pre-condition the car",
+                        "turn on the heat",
+                        "turn on the air conditioning"
+                    ]
+                },
+                {
+                    "name": "flash",
+                    "slots": [],
+                    "samples": [
+                        "blink the headlights",
+                        "blink the lights",
+                        "flash the headlights",
+                        "flash the lights"
+                    ]
+                },
+                {
+                    "name": "horn",
+                    "slots": [],
+                    "samples": [
+                        "sound the horn",
+                        "honk the horn"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
