@@ -18,8 +18,10 @@ After you've extracted the required API key from the mobile app, update the foll
 * `EMAIL%40DOMAIN.COM`: make sure you keep the escape code (%40)
 * `SECRET`: your ConnectedDrive account password
 * `SECRET-API-KEY`: the API key sniffed from the mobile app
+* `$url`: if required. Canada uses the same server as the USA.
 
 ```
+$url = 'https://b2vapi.bmwgroup.us/webapi/oauth/token/';
 $credentials = 'grant_type=password&username=EMAIL%40DOMAIN.COM&password=SECRET&scope=remote_services+vehicle_data';
 
 $options = array(
