@@ -18,7 +18,7 @@ After you've extracted the required API key from the mobile app (see [Authorisat
 * `EMAIL%40DOMAIN.COM`: make sure you keep the escape code (%40)
 * `SECRET`: your ConnectedDrive account password
 * `SECRET-API-KEY`: the API key sniffed from the mobile app
-* `$url`: if required. Canada uses the same server as the USA.
+* `$url`: if required. Canada uses the same [server](#servers) as the USA.
 
 ```
 $url = 'https://b2vapi.bmwgroup.us/webapi/oauth/token/';
