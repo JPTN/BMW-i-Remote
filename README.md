@@ -2,6 +2,8 @@
 
 A PHP version with interfaces for both Amazon's Alexa and Google Assistant.
 
+Demo video: https://www.youtube.com/watch?v=0Um5Gm_0Qrs&hd=1
+
 The code is split into 4 files:
 
 * `bmw-api.php`: Talks to BMW's servers and handles outgoing remote commands such as lock and climate control
