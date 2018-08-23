@@ -1,6 +1,13 @@
 # PHP Version
 
-Pending...
+A PHP version with interfaces for both Amazon's Alexa and Google Assistant.
+
+The code is split into 4 files:
+
+* `bmw-api.php`: Talks to BMW's servers and handles outgoing remote commands such as lock and climate control
+* `google-assistant.php`: Webhook for Google Assistant
+* `alexa.php`: Webhook for Amazon's Alexa
+* `text.php`: Common to both webhooks (for now). Receives the intent and generates the text and speech responses based on JSON data received from BMW
 
 # BMW i Remote API
 A reverse engineered interface for the BMW i3 Electric Car, created initially by Terence Eden, with some code modified by Quentin Stafford-Fraser.
